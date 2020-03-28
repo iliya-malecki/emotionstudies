@@ -109,7 +109,7 @@ const urldata = new URLSearchParams(queryString)
 let batch = urldata.get("batch")
 
 function App() {
-  const [slide, setSlide] = useState(6);
+  const [slide, setSlide] = useState(0);
   const [group, setGroup] = useState(null);
   const [dish, setDish] = useState('');
   const [mark, setMark] = useState(undefined);
