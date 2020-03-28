@@ -109,7 +109,7 @@ const urldata = new URLSearchParams(queryString)
 let batch = urldata.get("batch")
 
 function App() {
-  const [slide, setSlide] = useState(0);
+  const [slide, setSlide] = useState(6);
   const [group, setGroup] = useState(null);
   const [dish, setDish] = useState('');
   const [mark, setMark] = useState(undefined);
@@ -344,9 +344,18 @@ function App() {
     }
 
     if (slide === 6) {
-      return <Typography variant="h4" align="center">
-        Спасибо! Ваши результаты были сохранены
-      </Typography>
+      return <Grid container>
+        <Grid item xs={12}>
+          <Typography variant="h4" align="center">
+            Спасибо! Ваши результаты были сохранены. 
+          </Typography> 
+        </Grid>
+        <Grid item xs={12}>
+          <Typography variant="h5" align="center">
+            Отдельное спасибо https://t.me/vycode за написание этого сайта. Понравилась идея с сайтом для исследования? Пишите ему 😉
+          </Typography>
+        </Grid>
+      </Grid>
     }
 
     return null;

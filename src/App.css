@@ -28,6 +28,14 @@ h4.word {
   margin-top: 40vh !important;
   font-size: 48px !important;
 }
+h5, .h5 {
+  font-size: 24px !important;
+  position: fixed;
+  margin: 5% auto;
+  left: 0;
+  right: 0;
+  bottom: 10vh;
+}
 
 @media screen and (max-width: 600px) {
   body {
