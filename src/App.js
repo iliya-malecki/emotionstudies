@@ -106,7 +106,8 @@ for(let image in IMAGES) {
 
 const queryString = window.location.search
 const urldata = new URLSearchParams(queryString)
-let batch = urldata.get("batch")
+let batch;
+batch = urldata.get("batch")
 
 function App() {
   const [slide, setSlide] = useState(0);
@@ -181,8 +182,9 @@ function App() {
       <Grid container>
         <Typography variant="h4" align="center">
           Перед вами исследование особенностей эмоций и связанных с ними процессов.
-          Оно займет не больше 1 минуты (да-да, действительно 60 секунд). 
-          Полученные данные будут использоваться только в научных целях, и исследование полностью анонимно. Участие добровольное, вы можете завершить его в любой момент.
+          Оно займет не больше 2 минуты (да-да, действительно 120 секунд). 
+          Полученные данные будут использоваться только в научных целях, и исследование полностью анонимно. 
+          Участие добровольное, вы можете завершить его в любой момент, но просьба заполнить все поля (их немного) :)
         </Typography>
         <Grid item xs={12}>
           <Button onClick={start} variant="contained" color="primary">
@@ -217,11 +219,11 @@ function App() {
       return (
         <Grid container>
           <Typography variant="h4" align="center">
-            Какое ваше любимое кулинарное блюдо? Опишите в нескольких словах, что вам в нем нравится больше всего? <b>ОБЯЗАТЕЛЬНО</b>
+            Какое ваше любимое кулинарное блюдо? Опишите в нескольких словах, что вам в нем нравится больше всего?
           </Typography>
           <TextField value={dish} id="filled-basic" label="Опишите" variant="filled" onChange={e => setDish(e.target.value)}/>
           <Typography variant="h4" align="center">
-            Оцените по шкале от 1 до 10, насколько вам нравится это блюдо: 1 – нейтральное отношение, 10 - гастрономический экстаз
+            Оцените по шкале от 1 до 10, насколько вам нравится это блюдо: 1 – нейтральное отношение, 10 - высшее наслаждение
           </Typography>
           <Slider 
             min={1} 
@@ -260,7 +262,7 @@ function App() {
       return (
         <Grid container>
           <Typography variant="h4" align="center">
-            Попробуйте вспомнить эти слова, и отметить в списке те, которые появлялись на экране. <b>ОТМЕТЬТЕ ХОТЯ-БЫ ОДНО</b>
+            Попробуйте вспомнить эти слова, и отметить в списке те, которые появлялись на экране. Отметьте хотя бы одно
           </Typography>
           {Object.entries(checks).map(([key, value]) => (
             <Grid item xs={12} key={key} alignContent="center">
@@ -313,7 +315,7 @@ function App() {
     if (slide === 5) {
       return <Grid container>
         <Typography variant="h4" align="center">
-          А сейчас среди нарисованных фигур выберите те, которые видели на предыдущей картинке. <b>ВЫБЕРИТЕ ХОТЯ-БЫ ОДНУ</b>
+          А сейчас среди нарисованных фигур выберите те, которые видели на предыдущей картинке. Выберите хотя бы одну
         </Typography>
         {Object.entries(imageChecks).map(([key, value]) => (
           <Grid item xs={12} key={key} alignContent="center">
