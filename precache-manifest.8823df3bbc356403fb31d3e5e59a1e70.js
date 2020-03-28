@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "224e8325a9785d60b1bd58edf68b655d",
+    "revision": "107f325c1999bc2bc9c5f3709bb89f83",
     "url": "/emotionstudies/index.html"
   },
   {
-    "revision": "ea5f1c71c91cd3597e4a",
+    "revision": "d1bf3a2b39e2a48ca425",
     "url": "/emotionstudies/static/css/main.04ef311c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/emotionstudies/static/js/2.ebd06545.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ea5f1c71c91cd3597e4a",
-    "url": "/emotionstudies/static/js/main.add08c8f.chunk.js"
+    "revision": "d1bf3a2b39e2a48ca425",
+    "url": "/emotionstudies/static/js/main.2e17c4d8.chunk.js"
   },
   {
     "revision": "ca81ab448e585ba8711b",
