@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/emothionstudies/static/css/main.04ef311c.chunk.css",
-    "main.js": "/emothionstudies/static/js/main.551721a0.chunk.js",
-    "main.js.map": "/emothionstudies/static/js/main.551721a0.chunk.js.map",
-    "runtime-main.js": "/emothionstudies/static/js/runtime-main.fd9136f7.js",
-    "runtime-main.js.map": "/emothionstudies/static/js/runtime-main.fd9136f7.js.map",
-    "static/js/2.ebd06545.chunk.js": "/emothionstudies/static/js/2.ebd06545.chunk.js",
-    "static/js/2.ebd06545.chunk.js.map": "/emothionstudies/static/js/2.ebd06545.chunk.js.map",
-    "index.html": "/emothionstudies/index.html",
-    "precache-manifest.404acbd9bc10e13b23bacfed9d864268.js": "/emothionstudies/precache-manifest.404acbd9bc10e13b23bacfed9d864268.js",
-    "service-worker.js": "/emothionstudies/service-worker.js",
-    "static/css/main.04ef311c.chunk.css.map": "/emothionstudies/static/css/main.04ef311c.chunk.css.map",
-    "static/js/2.ebd06545.chunk.js.LICENSE.txt": "/emothionstudies/static/js/2.ebd06545.chunk.js.LICENSE.txt"
+    "main.css": "/emotionstudies/static/css/main.04ef311c.chunk.css",
+    "main.js": "/emotionstudies/static/js/main.1d489add.chunk.js",
+    "main.js.map": "/emotionstudies/static/js/main.1d489add.chunk.js.map",
+    "runtime-main.js": "/emotionstudies/static/js/runtime-main.d5d5a99c.js",
+    "runtime-main.js.map": "/emotionstudies/static/js/runtime-main.d5d5a99c.js.map",
+    "static/js/2.ebd06545.chunk.js": "/emotionstudies/static/js/2.ebd06545.chunk.js",
+    "static/js/2.ebd06545.chunk.js.map": "/emotionstudies/static/js/2.ebd06545.chunk.js.map",
+    "index.html": "/emotionstudies/index.html",
+    "precache-manifest.3d8ffc605f5d72a803b5025921ae8b65.js": "/emotionstudies/precache-manifest.3d8ffc605f5d72a803b5025921ae8b65.js",
+    "service-worker.js": "/emotionstudies/service-worker.js",
+    "static/css/main.04ef311c.chunk.css.map": "/emotionstudies/static/css/main.04ef311c.chunk.css.map",
+    "static/js/2.ebd06545.chunk.js.LICENSE.txt": "/emotionstudies/static/js/2.ebd06545.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.fd9136f7.js",
+    "static/js/runtime-main.d5d5a99c.js",
     "static/js/2.ebd06545.chunk.js",
     "static/css/main.04ef311c.chunk.css",
-    "static/js/main.551721a0.chunk.js"
+    "static/js/main.1d489add.chunk.js"
   ]
 }
