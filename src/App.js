@@ -104,6 +104,10 @@ for(let image in IMAGES) {
   IMAGE_CHECKS[image] = false;
 }
 
+const queryString = window.location.search
+const urldata = new URLSearchParams(queryString)
+let batch = urldata.get("batch")
+
 function App() {
   const [slide, setSlide] = useState(0);
   const [group, setGroup] = useState(null);
@@ -161,6 +165,7 @@ function App() {
     axios.post(url, {
       chat_id: '-483728903',
       text: JSON.stringify({
+        batch,
         group,
         dish,
         mark,
