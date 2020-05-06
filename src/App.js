@@ -103,11 +103,10 @@ let IMAGE_CHECKS = {};
 for(let image in IMAGES) {
   IMAGE_CHECKS[image] = false;
 }
-
 const queryString = window.location.search
 const urldata = new URLSearchParams(queryString)
 let batch;
-batch = urldata.get("batch")
+batch = urldata.get("batch")+"new";
 
 function App() {
   const [slide, setSlide] = useState(0);
@@ -148,7 +147,8 @@ function App() {
   }, [imageEffectTrigger])
 
   const start = () => {
-    setGroup(Math.random() > 0.5 ? 'cont' : 'exp');
+    //setGroup(Math.random() > 0.5 ? 'cont' : 'exp');
+    setGroup("exp");
     setSlide(1);
   }
 
