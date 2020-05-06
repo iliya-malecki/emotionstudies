@@ -147,8 +147,7 @@ function App() {
   }, [imageEffectTrigger])
 
   const start = () => {
-    //setGroup(Math.random() > 0.5 ? 'cont' : 'exp');
-    setGroup("exp");
+    setGroup(Math.random() > 0.5 ? 'cont' : 'exp');
     setSlide(1);
   }
 
