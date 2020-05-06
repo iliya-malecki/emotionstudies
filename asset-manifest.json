@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/emotionstudies/static/css/main.45e0b514.chunk.css",
-    "main.js": "/emotionstudies/static/js/main.66dfccbe.chunk.js",
-    "main.js.map": "/emotionstudies/static/js/main.66dfccbe.chunk.js.map",
+    "main.js": "/emotionstudies/static/js/main.03a44a0c.chunk.js",
+    "main.js.map": "/emotionstudies/static/js/main.03a44a0c.chunk.js.map",
     "runtime-main.js": "/emotionstudies/static/js/runtime-main.d5d5a99c.js",
     "runtime-main.js.map": "/emotionstudies/static/js/runtime-main.d5d5a99c.js.map",
     "static/js/2.ebd06545.chunk.js": "/emotionstudies/static/js/2.ebd06545.chunk.js",
     "static/js/2.ebd06545.chunk.js.map": "/emotionstudies/static/js/2.ebd06545.chunk.js.map",
     "index.html": "/emotionstudies/index.html",
-    "precache-manifest.5705e508a7ea789126faa8cb7ac80a60.js": "/emotionstudies/precache-manifest.5705e508a7ea789126faa8cb7ac80a60.js",
+    "precache-manifest.01c7d3ebe6202169aea74a4bf18658b5.js": "/emotionstudies/precache-manifest.01c7d3ebe6202169aea74a4bf18658b5.js",
     "service-worker.js": "/emotionstudies/service-worker.js",
     "static/css/main.45e0b514.chunk.css.map": "/emotionstudies/static/css/main.45e0b514.chunk.css.map",
     "static/js/2.ebd06545.chunk.js.LICENSE.txt": "/emotionstudies/static/js/2.ebd06545.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.d5d5a99c.js",
     "static/js/2.ebd06545.chunk.js",
     "static/css/main.45e0b514.chunk.css",
-    "static/js/main.66dfccbe.chunk.js"
+    "static/js/main.03a44a0c.chunk.js"
   ]
 }
